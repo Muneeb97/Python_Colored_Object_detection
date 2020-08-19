@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-cap=cv2.VideoCapture('http://192.168.137.157:4747/video')
+cap=cv2.VideoCapture('http://192.168.151.134:4747/video')
 
 def draw_grid(img, line_color=(0, 0, 0), thickness=1, type_=cv2.LINE_AA, pxstep=128, pystep=96):
 
